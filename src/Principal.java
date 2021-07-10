@@ -44,11 +44,8 @@ public class Principal {
         Caixa caixa = new Caixa();
 
         caixa.registrarVenda(3, 100);
-        caixa.registrarVenda(10, 540);
-        caixa.registrarVenda(6, 900);
-        caixa.registrarVenda(10,190);
 
-        caixa.totalPorProduto();
+         caixa.totalPorProduto();
 
         System.out.println("-------------------------------------");
         System.out.println("Subtotal = " + caixa.subTotalVenda());
